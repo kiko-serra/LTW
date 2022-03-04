@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Form</title>
+   </head>
+   <body>
+       <form method="post" name="textdata">
+           <fieldset>
+               <legend>Personal data:</legend>
+               <label>Name: <input type="text" required="required"></label>
+               <label>Age: <input type="radio" name="age" value="<18"> less than 18
+                <input type="radio" name="age" value="19-35">19-35
+                <input type="radio" name="age" value="36-48">36-48
+                <input type="radio" name="age" value=">49">>49
+                </label>
+                <br>
+                <label>Profession: <input name="Jobs" list="Jobs" value="Programmer">
+                <datalist id="Jobs">
+                    <option>Programmer</option>
+                    <option >Surgeon</option>
+                    <option>Artist</option>
+                    <option>Economist</option>
+                </datalist></label>
+                <label>Country: <select name="Coutries" required="required">
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="France">France</option>
+                    <option value="Ukrain">Ukrain</option>
+                    </select>
+                </label>
+                <br>
+                <label>Interests: 
+                    <input type="checkbox" name="Reading" value="Reading">Reading
+                    <input type="checkbox" name="Cycling" value="Cycling">Cycling
+                    <input type="checkbox" name="Fishing" value="Fishing">Fishing
+                    <input type="checkbox" name="Walking" value="Walking">Walking
+                    
+                </label>
+                <br>
+                <label>How did you find out about the site: 
+                    <textarea name="description" rows="5" cols="60"></textarea>
+                    
+                </label>
+                <br>
+                
+                <input type="submit" value="Send" name="submit">
+                 
+           </fieldset>
+       </form>
+   </body>
+</html>
+
