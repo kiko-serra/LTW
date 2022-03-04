@@ -4,6 +4,7 @@
 
 ## Práticas:
 ### 01
+<a href="https://web.fe.up.pt/~up202007723/index.html">Website</a>
 <ol>
     <li>
         <a href="http://127.0.0.1:5500/LTW/01%20HTML%20Exercises/1.Online%20Newspaper/all.html">Online NewsPaper </a>
