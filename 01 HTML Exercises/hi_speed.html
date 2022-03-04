@@ -39,12 +39,19 @@
                      <p>gnod_draz23</p>
                  </article>
              </article>
-             <form action="save.php" method="get">
-                <input type="text" name="Title" 
-                placeholder="title of your comment">
-
+             <form>
+                 <fieldset>
+                     <legend>Comment here</legend>
+                     <label>Title: <input type="text" name="Title" placeholder="title of your comment"></label>
+                     <label>Username: <input type="text" name="Title" placeholder="username"></label>
+                     <label>Comment: <textarea></textarea></label>
+                     <button type="submit">
+                        Submit
+                      </button>
+                 </fieldset>
              </form>
           </section>
       </main>
+      <footer>By: The same one at midnight</footer>
     </body>
 </html>
